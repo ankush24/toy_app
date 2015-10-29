@@ -38,8 +38,6 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.5.0)
     arel (6.0.3)
-    binding_of_caller (0.7.3.pre1)
-      debug_inspector (>= 0.0.1)
     builder (3.2.2)
     byebug (3.4.0)
       columnize (~> 0.8)
@@ -54,11 +52,11 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     columnize (0.9.0)
-    debug_inspector (0.0.2)
     debugger-linecache (1.2.0)
     erubis (2.7.0)
     execjs (2.6.0)
     ffi (1.9.10)
+    ffi (1.9.10-x64-mingw32)
     formatador (0.2.5)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
@@ -107,10 +105,13 @@ GEM
     nenv (0.2.0)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
+    nokogiri (1.6.6.2-x64-mingw32)
+      mini_portile (~> 0.6.0)
     notiffany (0.0.8)
       nenv (~> 0.1)
       shellany (~> 0.0)
     pg (0.18.3)
+    pg (0.18.3-x64-mingw32)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -180,17 +181,15 @@ GEM
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2015.7)
+      tzinfo (>= 1.0.0)
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    web-console (2.0.0.beta3)
-      activemodel (~> 4.0)
-      binding_of_caller (= 0.7.3.pre1)
-      railties (~> 4.0)
-      sprockets-rails (>= 2.0, < 4.0)
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   byebug (= 3.4.0)
@@ -203,9 +202,14 @@ DEPENDENCIES
   pg
   rails (= 4.2.4)
   rails_12factor (= 0.0.2)
+  rubysl-pty
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring (= 1.1.3)
   turbolinks
+  tzinfo-data
   uglifier (>= 1.3.0)
-  web-console (= 2.0.0.beta3)
+  web-console-rails3
+
+BUNDLED WITH
+   1.10.6

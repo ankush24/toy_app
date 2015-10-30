@@ -54,3 +54,4 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 gem 'pg'
+gem 'bcrypt',               '3.1.7'

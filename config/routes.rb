@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
+  # get 'users/new'
+
   # get 'user/new'
 
   # get 'users/new'
-  # get 'signup'  => 'users#new'
+  get 'signup'  => 'users#new'
 
   # get 'static_pages/home'
   root 'static_pages#home'

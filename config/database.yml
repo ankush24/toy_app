@@ -7,12 +7,12 @@ default: &default
 
 development:
   <<: *default
-  database: toy_app_dev1
+  database: toy_app_dev2
 
 test:
   <<: *default
-  database: toy_app_test1
+  database: toy_app_test2
 
 production:
   <<: *default
-  database: toy_app_prod1
+  database: toy_app_prod2
